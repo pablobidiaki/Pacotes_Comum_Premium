@@ -1,0 +1,32 @@
+@media (min-width:768px) {
+    h1{
+        margin-top: 25px;
+    }
+
+    .opcoes{
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .opcoes p {
+        margin:0px 3%;
+    }
+
+    .planos{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .basico-anual, .basico-mensal, .prof-anual, .prof-mensal, .master-anual, .master-mensal{
+        margin-top: 3%;
+    }
+
+    .basico-anual, .basico-mensal{
+        margin-left:5%;
+    }
+
+    .master-anual, .master-mensal{
+        margin-right:5% ;
+    }
+}
