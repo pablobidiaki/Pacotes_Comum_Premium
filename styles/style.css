@@ -82,6 +82,10 @@ label{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.37);
 }
 
+.master-anual, .master-mensal{
+    margin-bottom: 15%;
+}
+
 .basico-anual hr,.prof-anual hr,.basico-mensal hr, .prof-mensal hr, .master-anual hr, .master-mensal hr{
     margin:15px 45px;
 }
