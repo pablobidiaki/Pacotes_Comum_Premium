@@ -132,6 +132,10 @@ label{
     border-radius: 5px;
 }
 
+.master-anual, .master-mensal{
+    margin-bottom: 20px;
+}
+
 .off{
     display: none;
 }
