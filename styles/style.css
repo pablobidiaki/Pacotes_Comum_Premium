@@ -8,8 +8,8 @@
 }
 
 body{
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     background: linear-gradient(rgba(188, 183, 255, 0.5),rgba(188, 183, 255, 0.5) .100%), url(../imgs/bg-top.svg);
     background-repeat: no-repeat;
 }
@@ -73,34 +73,35 @@ label{
     transform: translateX(24px);
 }
 
-.branco-anual{
+.basico-anual, .basico-mensal, .master-anual, .master-mensal{
     margin: 0 auto;
     margin-top: 15%;
     background-color: #fff;
     border-radius: 10px;
     width: 85%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.37);
 }
 
-.branco-anual hr,.azul-anual hr{
+.basico-anual hr,.prof-anual hr,.basico-mensal hr, .prof-mensal hr, .master-anual hr, .master-mensal hr{
     margin:15px 45px;
 }
 
-.branco-anual p, .azul-anual p{
+.basico-anual p, .prof-anual p, .basico-mensal p, .prof-mensal p, .master-anual p, .master-mensal p {
     text-align: center;
     font-weight: bold;
 }
 
-.branco-anual .classe, .azul-anual .classe{
+.basico-anual .classe, .prof-anual .classe,.basico-mensal .classe, .prof-mensal .classe, .master-anual .classe, .master-mensal .classe{
     padding-top: 20px;
 }
 
-.branco-anual .preco, .azul-anual .preco{
+.basico-anual .preco, .prof-anual .preco,.basico-mensal .preco, .prof-mensal .preco, .master-anual .preco, .master-mensal .preco{
     padding-top: 20px;
     font-size: 3rem;
 }
 
-.branco-anual button{
-    background:linear-gradient(to right, rgb(168, 167, 253), rgb(96, 96, 202)) ;
+.basico-anual button, .basico-mensal button, .master-anual button, .master-mensal button{
+    background:linear-gradient(to right, rgb(168, 167, 253), rgb(96, 96, 202));
     color: white;
     font-size: 1.2rem;
     font-weight: 900;
@@ -110,16 +111,17 @@ label{
     border-radius: 5px;
 }
 
-.azul-anual{
+.prof-anual, .prof-mensal{
     margin: 0 auto;
     margin-top: 15%;
-    background-color: rgb(96, 96, 202);
+    background:linear-gradient(to right, rgb(168, 167, 253), rgb(96, 96, 202));
     border-radius: 10px;
     width: 85%;
     color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.37);
 }
 
-.azul-anual button{
+.prof-anual button, .prof-mensal button{
     background-color: white;
     color: rgb(96, 96, 202);
     font-size:1.2rem;
@@ -130,5 +132,7 @@ label{
     border-radius: 5px;
 }
 
-
+.off{
+    display: none;
+}
 
