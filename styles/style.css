@@ -79,7 +79,7 @@ label{
     background-color: #fff;
     border-radius: 10px;
     width: 85%;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.37);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.37);
 }
 
 .master-anual, .master-mensal{
@@ -122,7 +122,7 @@ label{
     border-radius: 10px;
     width: 85%;
     color: white;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.37);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.37);
 }
 
 .prof-anual button, .prof-mensal button{
