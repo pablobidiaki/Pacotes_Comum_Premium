@@ -21,17 +21,22 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
+
+        position: absolute;
+        left: 50%;
+        top:58%;
+        transform: translate(-50%, -50%);
     }
 
     .prof-anual, .prof-mensal{
         margin-top: 3%;
-        width: 25%;
+        width: 25vw;
     }
 
     .basico-anual, .basico-mensal, .master-anual, .master-mensal{
         margin-top:5%;
         margin-bottom: 2%;
-        width: 25%;
+        width: 25vw;
     }
 
     .basico-anual, .basico-mensal{
