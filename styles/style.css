@@ -8,7 +8,7 @@
 }
 
 body{
-    height: 96vh;
+    height: 100%;
     width: 100%;
     background: linear-gradient(rgba(188, 183, 255, 0.5),rgba(188, 183, 255, 0.5) .100%), url(../imgs/bg-top.svg);
     background-repeat: no-repeat;
@@ -101,20 +101,20 @@ label{
 }
 
 .basico-anual button, .basico-mensal button, .master-anual button, .master-mensal button{
-    background:linear-gradient(to right, rgb(168, 167, 253), rgb(96, 96, 202));
+    background: rgb(96, 96, 202);
     color: white;
     font-size: 1.2rem;
     font-weight: 900;
     padding: 8px;
     margin-bottom: 15px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .prof-anual, .prof-mensal{
     margin: 0 auto;
     margin-top: 15%;
-    background:linear-gradient(to right, rgb(168, 167, 253), rgb(96, 96, 202));
+    background:rgb(96, 96, 202);
     border-radius: 10px;
     width: 85%;
     color: white;
@@ -129,7 +129,7 @@ label{
     padding: 8px;
     margin-bottom: 15px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .master-anual, .master-mensal{
